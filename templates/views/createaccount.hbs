@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}}
+<body>
+        <div class="container1">
+        <h3>Sign Up</h3>
+        <hr> 
+        <form id="Signup_form" action="/createaccount" method="POST" >
+            <input type="text" name="firstname" id="First_name_id" placeholder="First name" required="true">
+            <br>
+            <input type="text" name="lastname" id="Last_name_id" placeholder="Last name" required="true">
+            <br>
+            <input type="email" name="email" id="emailcreate_id" placeholder="Email Address" required="true">
+            <br>
+            <input type="password" autocomplete="cc-number"  name="password" id="Passwordcreate_id" placeholder="Password" required="true" minlength="8">
+            <br>
+            <input type="password" autocomplete="cc-number"  name="confirmpassword" id="Passwordcreate_id" placeholder="Confirm Password" required="true" minlength="8">
+            <br>
+            <hr>
+            <button type="submit" id="Sign_up_btn">Sign Up</button>
+        </form>  
+        <a href="/" id="login_btn" >Back</a>
+    </div>
+</body>
+</html>
